@@ -15,8 +15,6 @@ before_script:
   - chmod +x generate-apks.sh
 script:
   - ./flutter/bin/flutter build apk
-after_success:
-  - ./generate-apks.sh
 cache:
   directories:
     - $HOME/.pub-cache
