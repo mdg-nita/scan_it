@@ -19,7 +19,7 @@ script:
   # abort on error
   - set -e
   - flutter packages get
-  - flutter/bin/flutter build apk
+  - flutter build apk
 cache:
   directories:
     - $HOME/.pub-cache
