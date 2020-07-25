@@ -1,1 +1,1 @@
-# scan_it
+# Scan It
